@@ -21,8 +21,9 @@ on:
     branches:
       - 'user/**'
     paths:
+      - '.github/workflows/lab03.yaml'
       - 'ciscripts/orlcitools.py'
-      - 'ciscripts/lab03.py'
+      - 'ciscripts/lab03*'
       - 'labs/03_code-management-01/**'
 jobs:
   Lab03:

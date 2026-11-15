@@ -21,8 +21,9 @@ on:
     branches:
       - 'user/**'
     paths:
+      - '.github/workflows/lab01.yaml'
       - 'ciscripts/orlcitools.py'
-      - 'ciscripts/lab01.py'
+      - 'ciscripts/lab01*'
       - 'labs/01_ABC-of-repro-numerical-science/**'
 jobs:
   Lab01:
